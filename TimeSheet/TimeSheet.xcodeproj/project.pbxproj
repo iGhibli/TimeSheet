@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B95CEEE9213EA89E00B6BA65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95CEEE8213EA89E00B6BA65 /* AppDelegate.swift */; };
-		B95CEEEB213EA89E00B6BA65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95CEEEA213EA89E00B6BA65 /* ViewController.swift */; };
 		B95CEEEE213EA89E00B6BA65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95CEEEC213EA89E00B6BA65 /* Main.storyboard */; };
 		B95CEEF0213EA89E00B6BA65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B95CEEEF213EA89E00B6BA65 /* Assets.xcassets */; };
 		B95CEEF3213EA89E00B6BA65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95CEEF1213EA89E00B6BA65 /* LaunchScreen.storyboard */; };
+		B95CEF0A213FD01C00B6BA65 /* KYEmbedDrawerControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95CEF07213FD01C00B6BA65 /* KYEmbedDrawerControllerSegue.swift */; };
+		B95CEF0B213FD01C00B6BA65 /* KYDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95CEF08213FD01C00B6BA65 /* KYDrawerController.swift */; };
+		B95CEF0C213FD01C00B6BA65 /* KYEmbedMainControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95CEF09213FD01C00B6BA65 /* KYEmbedMainControllerSegue.swift */; };
+		B95CEF0E213FD23E00B6BA65 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95CEF0D213FD23D00B6BA65 /* MainVC.swift */; };
+		B95CEF10213FD4F600B6BA65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95CEF0F213FD4F600B6BA65 /* AppDelegate.swift */; };
+		B95CEF12213FD58300B6BA65 /* DrawerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95CEF11213FD58300B6BA65 /* DrawerVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B95CEEE5213EA89E00B6BA65 /* TimeSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B95CEEE8213EA89E00B6BA65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B95CEEEA213EA89E00B6BA65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B95CEEED213EA89E00B6BA65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B95CEEEF213EA89E00B6BA65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B95CEEF2213EA89E00B6BA65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B95CEEF4213EA89E00B6BA65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95CEF07213FD01C00B6BA65 /* KYEmbedDrawerControllerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYEmbedDrawerControllerSegue.swift; sourceTree = "<group>"; };
+		B95CEF08213FD01C00B6BA65 /* KYDrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYDrawerController.swift; sourceTree = "<group>"; };
+		B95CEF09213FD01C00B6BA65 /* KYEmbedMainControllerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYEmbedMainControllerSegue.swift; sourceTree = "<group>"; };
+		B95CEF0D213FD23D00B6BA65 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		B95CEF0F213FD4F600B6BA65 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B95CEF11213FD58300B6BA65 /* DrawerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,66 @@
 		B95CEEE7213EA89E00B6BA65 /* TimeSheet */ = {
 			isa = PBXGroup;
 			children = (
-				B95CEEE8213EA89E00B6BA65 /* AppDelegate.swift */,
-				B95CEEEA213EA89E00B6BA65 /* ViewController.swift */,
+				B95CEF04213EBD3000B6BA65 /* Other */,
+				B95CEF03213EBBE800B6BA65 /* Controller */,
+				B95CEF02213EBBE500B6BA65 /* View */,
+				B95CEF01213EBBE300B6BA65 /* Model */,
 				B95CEEEC213EA89E00B6BA65 /* Main.storyboard */,
+				B95CEF0F213FD4F600B6BA65 /* AppDelegate.swift */,
 				B95CEEEF213EA89E00B6BA65 /* Assets.xcassets */,
 				B95CEEF1213EA89E00B6BA65 /* LaunchScreen.storyboard */,
 				B95CEEF4213EA89E00B6BA65 /* Info.plist */,
 			);
 			path = TimeSheet;
+			sourceTree = "<group>";
+		};
+		B95CEF01213EBBE300B6BA65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B95CEF02213EBBE500B6BA65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B95CEF03213EBBE800B6BA65 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B95CEF0D213FD23D00B6BA65 /* MainVC.swift */,
+				B95CEF11213FD58300B6BA65 /* DrawerVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B95CEF04213EBD3000B6BA65 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				B95CEF05213FCFD300B6BA65 /* ThirdParty */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		B95CEF05213FCFD300B6BA65 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				B95CEF06213FD01C00B6BA65 /* KYDrawerController */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		B95CEF06213FD01C00B6BA65 /* KYDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				B95CEF07213FD01C00B6BA65 /* KYEmbedDrawerControllerSegue.swift */,
+				B95CEF08213FD01C00B6BA65 /* KYDrawerController.swift */,
+				B95CEF09213FD01C00B6BA65 /* KYEmbedMainControllerSegue.swift */,
+			);
+			path = KYDrawerController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +195,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B95CEEEB213EA89E00B6BA65 /* ViewController.swift in Sources */,
-				B95CEEE9213EA89E00B6BA65 /* AppDelegate.swift in Sources */,
+				B95CEF0E213FD23E00B6BA65 /* MainVC.swift in Sources */,
+				B95CEF12213FD58300B6BA65 /* DrawerVC.swift in Sources */,
+				B95CEF0B213FD01C00B6BA65 /* KYDrawerController.swift in Sources */,
+				B95CEF0A213FD01C00B6BA65 /* KYEmbedDrawerControllerSegue.swift in Sources */,
+				B95CEF10213FD4F600B6BA65 /* AppDelegate.swift in Sources */,
+				B95CEF0C213FD01C00B6BA65 /* KYEmbedMainControllerSegue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = TimeSheet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,6 +364,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = TimeSheet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
